@@ -20,8 +20,8 @@
 		<finalName>${project.artifactId}</finalName>
 		<resources>
 			<resource>
-			<directory>src/main/resources</directory>
-			<filtering>true</filtering>
+				<directory>src/main/resources</directory>
+				<filtering>true</filtering>
 			</resource>
 		</resources>
 		<plugins>
@@ -66,4 +66,22 @@
 			<version>0.0.9</version>
 		</dependency>
 	</dependencies>
+	<profiles>
+		<profile>
+			<id>dev</id>
+			<activation>
+				<activeByDefault>true</activeByDefault>
+			</activation>
+			<properties>
+				<mode>DEV</mode>
+			</properties>
+		</profile>
+		<profile>
+			<id>prod</id>
+			<properties>
+				<mode>PROD</mode>
+			</properties>
+		</profile>
+	</profiles>
+
 </project>
