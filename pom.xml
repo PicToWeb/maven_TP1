@@ -14,9 +14,16 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<junit.version>3.8.1</junit.version>
+		<mode>DEV</mode>
 	</properties>
 	<build>
 		<finalName>${project.artifactId}</finalName>
+		<resources>
+			<resource>
+			<directory>src/main/resources</directory>
+			<filtering>true</filtering>
+			</resource>
+		</resources>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
@@ -52,6 +59,11 @@
 			<artifactId>junit</artifactId>
 			<version>${junit.version}</version>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.github.lalyos</groupId>
+			<artifactId>jfiglet</artifactId>
+			<version>0.0.9</version>
 		</dependency>
 	</dependencies>
 </project>
