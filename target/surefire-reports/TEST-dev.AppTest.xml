@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="dev.AppTest" time="0.018" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="dev.AppTest" time="0.014" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="BE"/>
     <property name="sun.boot.library.path" value="C:\Users\piicr\AppData\Local\Programs\Eclipse Adoptium\jdk-17.0.10.7-hotspot\bin"/>
-    <property name="sun.java.command" value="C:\Users\piicr\AppData\Local\Temp\surefire5458851463330582759\surefirebooter-20240522135823735_3.jar C:\Users\piicr\AppData\Local\Temp\surefire5458851463330582759 2024-05-22T13-58-23_575-jvmRun1 surefire-20240522135823735_1tmp surefire_0-20240522135823735_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\piicr\AppData\Local\Temp\surefire303584310152175509\surefirebooter-20240522151723282_3.jar C:\Users\piicr\AppData\Local\Temp\surefire303584310152175509 2024-05-22T15-17-23_121-jvmRun1 surefire-20240522151723282_1tmp surefire_0-20240522151723282_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\maven\apache-maven-3.9.6\premier-projet-maven\target\test-classes;C:\maven\apache-maven-3.9.6\premier-projet-maven\target\classes;C:\Users\piicr\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -25,13 +25,12 @@
     <property name="java.version.date" value="2024-01-16"/>
     <property name="java.home" value="C:\Users\piicr\AppData\Local\Programs\Eclipse Adoptium\jdk-17.0.10.7-hotspot"/>
     <property name="file.separator" value="\"/>
-    <property name="style.color" value="always"/>
     <property name="basedir" value="C:\maven\apache-maven-3.9.6\premier-projet-maven"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\piicr\AppData\Local\Temp\surefire5458851463330582759\surefirebooter-20240522135823735_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\piicr\AppData\Local\Temp\surefire303584310152175509\surefirebooter-20240522151723282_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.10+7"/>
@@ -51,12 +50,12 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Users\piicr\AppData\Local\Programs\Eclipse Adoptium\jdk-17.0.10.7-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/piicr/Downloads/sts-4.22.0.RELEASE//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin/server;C:/Users/piicr/Downloads/sts-4.22.0.RELEASE//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Druide\Antidote 9\Application\Bin64\;C:\Program Files (x86)\Druide\Antidote 9\Application\Bin32\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Sublime Text 3\sublime_text.exe;C:\Program Files\Solidigm\Solidigm(TM) Storage Tool\;C:\Program Files\dotnet\;C:\Program Files\Intel\Intel(R) Memory and Storage Tool\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\maven\apache-maven-3.9.6\bin;C:\Users\piicr\AppData\Local\Programs\Eclipse Adoptium\jdk-17.0.10.7-hotspot\bin;C:\Ruby27-x64\bin;C:\Users\piicr\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Sublime Text 3;C:\Users\piicr\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\piicr\AppData\Roaming\npm;C:\Users\piicr\Downloads\sts-4.22.0.RELEASE;;."/>
+    <property name="java.library.path" value="C:\Users\piicr\AppData\Local\Programs\Eclipse Adoptium\jdk-17.0.10.7-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Druide\Antidote 9\Application\Bin64\;C:\Program Files (x86)\Druide\Antidote 9\Application\Bin32\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Sublime Text 3\sublime_text.exe;C:\Program Files\Solidigm\Solidigm(TM) Storage Tool\;C:\Program Files\dotnet\;C:\Program Files\Intel\Intel(R) Memory and Storage Tool\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\maven\apache-maven-3.9.6\bin;C:\Users\piicr\AppData\Local\Programs\Eclipse Adoptium\jdk-17.0.10.7-hotspot\bin;C:\Ruby27-x64\bin;C:\Users\piicr\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Sublime Text 3;C:\Users\piicr\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\piicr\AppData\Roaming\npm;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="java.vendor" value="Eclipse Adoptium"/>
     <property name="java.vm.version" value="17.0.10+7"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="testApp" classname="dev.AppTest" time="0.002"/>
+  <testcase name="testApp" classname="dev.AppTest" time="0.001"/>
 </testsuite>
